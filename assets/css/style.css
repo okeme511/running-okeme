@@ -28,13 +28,27 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
 }
-
+/* made the logo "LOve running" uppercase and spaced the letter and also change the color*/
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
 }
+/* Made some changes to the Menu navigation */
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+/* list item in the nav menu is rearranged to a better margin */
+#menu > li {
+    margin-bottom: 1em;
+}
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+/* Remove link underline, from the logo itself and the navs which are a elements */
 header a {
     text-decoration: none;
     color: inherit;
