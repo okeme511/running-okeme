@@ -77,14 +77,16 @@ nav {
     top: 100%;
 
 }
+
 /* Nav toggle */
 #nav-toggle:checked~nav {
-    display: block ;
+    display: block;
 }
 
 #nav-toggle {
     display: none;
 }
+
 .nav-toggle-label {
     font-size: 2rem;
 }
@@ -95,6 +97,7 @@ main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
