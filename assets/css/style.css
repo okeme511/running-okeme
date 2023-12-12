@@ -28,7 +28,10 @@ h3 {
     letter-spacing: 2px;
     color: #252525;
 }
-
+/* A class tag to hide our headings */
+.hidden-heading {
+    display: none;
+}
 /* Header */
 header {
     background-color: #ffffff;
